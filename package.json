@@ -1,0 +1,26 @@
+{
+  "name": "rag-scalable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.9",
+    "@langchain/community": "^1.1.0",
+    "@langchain/core": "^1.1.5",
+    "@langchain/google-genai": "^2.1.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "@qdrant/js-client-rest": "^1.16.2",
+    "chromadb": "^3.1.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
