@@ -1,8 +1,9 @@
 import { GoogleGenerativeAIEmbeddings } from "@langchain/google-genai";
+import 'dotenv/config'
 
 const embeddings = new GoogleGenerativeAIEmbeddings({
   model: "gemini-embedding-001",
-  apiKey: process.env.GOOGLE_API_KEY,
+  apiKey: process.env.GOOGLE_GENERATIVE_API_KEY,
   
 });
 
